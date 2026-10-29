@@ -12,12 +12,12 @@
 <!-- ============================================================= -->
 
 <title>Michele Catacchio</title>
-<meta name="description" content="Michele Catacchio — PhD candidate in analytical chemistry. Biosensors, organic bioelectronics, thin-film fabrication.">
+<meta name="description" content="Michele Catacchio — postdoctoral researcher in analytical chemistry. Biosensors, organic bioelectronics, thin-film fabrication.">
 
 <!-- Open Graph (anteprima quando condividi il link) -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Michele Catacchio">
-<meta property="og:description" content="PhD candidate in analytical chemistry — biosensors and organic bioelectronics.">
+<meta property="og:description" content="Postdoctoral researcher in analytical chemistry — biosensors and organic bioelectronics.">
 
 <!-- Font: serif (Spectral) per il nome, monospace (IBM Plex Mono) per i metadati -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -151,25 +151,33 @@
     display: grid;
     grid-template-columns: 2.25rem 1fr;
     align-items: start;
-    margin: 0 0 1rem;
+    margin: 0 0 1.3rem;
   }
   .pub::before {
     content: counter(pub) ".";
     font-family: var(--mono);
     font-size: .8rem;
-    line-height: 1.65;
+    line-height: 1.6;
     color: var(--ink-soft);
   }
   .pub:last-child { margin-bottom: 0; }
-  .pub a {
+  .pub .t {
     font-weight: 600;
     color: var(--ink);
     text-decoration: none;
     border-bottom: 1px solid var(--rule);
     transition: color .15s, border-color .15s;
   }
-  .pub a:hover,
-  .pub a:focus-visible { color: var(--accent); border-bottom-color: var(--accent); }
+  .pub .t:hover,
+  .pub .t:focus-visible { color: var(--accent); border-bottom-color: var(--accent); }
+  .pub .auth {
+    display: block;
+    font-size: .85rem;
+    color: var(--ink-soft);
+    margin-top: .3rem;
+    line-height: 1.5;
+  }
+  .pub .auth em { font-style: italic; }
 
   /* --- Footer --- */
   footer {
@@ -197,7 +205,7 @@
     <h1>Michele Catacchio</h1>
 
     <!-- TODO: il tuo ruolo -->
-    <p class="role">PhD Candidate, Analytical Chemistry</p>
+    <p class="role">Postdoctoral Researcher, Analytical Chemistry</p>
 
     <!-- TODO: campi e sede; togli o aggiungi <span> liberamente -->
     <p class="meta">
@@ -214,12 +222,12 @@
   </header>
 
   <section class="bio">
-    <p>I am a PhD student in the Department of Pharmacy &ndash; Drug Sciences at the
-    University of Bari Aldo Moro. I hold a Master's degree in Chemistry and am a
+    <p>I am a postdoctoral researcher at Åbo Akademi University in Turku, Finland.
+    I earned my PhD in the Department of Pharmacy &ndash; Drug Sciences at the
+    University of Bari Aldo Moro, and I hold a Master's degree in Chemistry, being a
     registered member of the Italian Order of Chemists. During my PhD I spent six
-    months as a visiting researcher at Åbo Akademi University in Turku, Finland,
-    where I had previously carried out a three-month research stay during my
-    bachelor's.</p>
+    months as a visiting researcher at Åbo Akademi, where I had previously carried
+    out a three-month research stay during my bachelor's.</p>
 
     <p>My research focuses on developing ultrasensitive biosensors, combining
     electronic transduction based on organic field-effect transistors (EGOFET)
@@ -236,37 +244,90 @@
   <section class="pubs">
     <h2>Publications</h2>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:KlAtU1dfN6UC" target="_blank" rel="noopener">Surface-Density-Controlled Spreading–Packing Competition in Antibody Monolayers Revealed by PM-IRRAS and 2D Correlation Spectroscopy</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1021/acs.chemmater.6c01464" target="_blank" rel="noopener">Biofunctional Molecular Large Surfaces Enabling Ultrasensitive Detection for Early Diagnosis of Cervical Cancer</a>
+      <span class="auth">E. Castrignanò, L. Sarcina, V. Mongelli, I. Iacobellis, A. Leone, R. Luisi, <strong>M. Catacchio</strong>, P. Bollella, V. Morciano, A. Costantino, G. Mattioli, F. Leonetti, F. Lanubile, V. Loizzi, A. Azzariti, E. Macchia, G. Cormio, L. Torsi &middot; <em>Chemistry of Materials</em>, 2026</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:5nxA0vEk-isC" target="_blank" rel="noopener">Multipurpose Conductive-Ink Formulations for Flexible, Wearable and Edible Enzyme-Based Bioelectronics</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/ceur.202500388" target="_blank" rel="noopener">Water Contact Angle Reveals pH-Conditioning-Enabled Single Molecule at a Large Surface Sensing Mechanisms</a>
+      <span class="auth">E. Macchia, C. Di Franco, M. Caputo, L. Sarcina, V. Mongelli, M. Piscitelli, <strong>M. Catacchio</strong>, R. Funari, E. Castrignanò, M. Roggio, P. Bollella, P. Favia, G. Scamarcio, L. Torsi &middot; <em>ChemistryEurope</em>, 2026</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:3fE2CSJIrl8C" target="_blank" rel="noopener">Leveraging Design of Experiments to Unravel the Amplification Mechanism of Single-Molecule Wide-Field Biosensors</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1021/acsomega.6c02134" target="_blank" rel="noopener">Surface-Density-Controlled Spreading&ndash;Packing Competition in Antibody Monolayers Revealed by PM-IRRAS and 2D Correlation Spectroscopy</a>
+      <span class="auth">M. Piscitelli, C. Di Franco, L. Sarcina, <strong>M. Catacchio</strong>, F. Corvino, E. Macchia, L. Torsi, G. Scamarcio &middot; <em>ACS Omega</em>, 2026</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:hqOjcs7Dif8C" target="_blank" rel="noopener">Plasmonic Single-Molecule Affinity Detection at 10&minus;20 Molar</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/admi.202500090" target="_blank" rel="noopener">Leveraging Design of Experiments to Unravel the Amplification Mechanism of Single-Molecule Wide-Field Biosensors</a>
+      <span class="auth"><strong>M. Catacchio</strong>, M. Caputo, L. Sarcina, C. Di Franco, M. Piscitelli, E. Castrignanò, P. Bollella, G. Scamarcio, E. Macchia, L. Torsi &middot; <em>Advanced Materials Interfaces</em>, 2025</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:Se3iqnhoufwC" target="_blank" rel="noopener">β-Sheets Orientation in Physisorbed Protein Layers</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/adma.202418610" target="_blank" rel="noopener">Plasmonic Single-Molecule Affinity Detection at 10<sup>&minus;20</sup> Molar</a>
+      <span class="auth">E. Macchia, C. Di Franco, C. Scandurra, L. Sarcina, M. Piscitelli, <strong>M. Catacchio</strong>, M. Caputo, P. Bollella, G. Scamarcio, L. Torsi &middot; <em>Advanced Materials</em>, 2025</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:LkGwnXOMwfcC" target="_blank" rel="noopener">Inside out: Exploring edible biocatalytic biosensors for health monitoring</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/admi.202400867" target="_blank" rel="noopener">&beta;-Sheets Orientation in Physisorbed Protein Layers</a>
+      <span class="auth">M. Piscitelli, D. Bajrami, C. Di Franco, L. Sarcina, <strong>M. Catacchio</strong>, E. Macchia, L. Torsi, B. Mizaikoff, G. Scamarcio &middot; <em>Advanced Materials Interfaces</em>, 2024</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:_FxGoFyzp5QC" target="_blank" rel="noopener">Piercing the Shadows: Exploring the Influence of Signal Preprocessing on Interpreting Ultrasensitive Bioelectronic Sensor Data</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1016/j.bioelechem.2024.108830" target="_blank" rel="noopener">Inside out: Exploring edible biocatalytic biosensors for health monitoring</a>
+      <span class="auth">V. Marchianò, A. Tricase, A. Cimino, B. Cassano, <strong>M. Catacchio</strong>, E. Macchia, L. Torsi, P. Bollella &middot; <em>Bioelectrochemistry</em>, 2025</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:MXK_kJrjxJIC" target="_blank" rel="noopener">Ultrasensitive detection of 2,4-dichlorophenoxyacetic acid by inhibiting alkaline phosphatase immobilized onto a highly porous gold nanocoral electrode</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/cplu.202400520" target="_blank" rel="noopener">Piercing the Shadows: Exploring the Influence of Signal Preprocessing on Interpreting Ultrasensitive Bioelectronic Sensor Data</a>
+      <span class="auth">M. Caputo, L. Sarcina, C. Scandurra, <strong>M. Catacchio</strong>, M. Piscitelli, C. Di Franco, P. Bollella, G. Scamarcio, L. Torsi, E. Macchia &middot; <em>ChemPlusChem</em>, 2024</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:roLk4NBRz8UC" target="_blank" rel="noopener">Electric field cycling of physisorbed antibodies reduces biolayer polarization dispersion</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1039/d4nr04857a" target="_blank" rel="noopener">Ultrasensitive detection of 2,4-dichlorophenoxyacetic acid by inhibiting alkaline phosphatase immobilized onto a highly porous gold nanocoral electrode</a>
+      <span class="auth">A. Tricase, <strong>M. Catacchio</strong>, V. Marchianò, E. Macchia, P. Bollella, L. Torsi &middot; <em>Nanoscale</em>, 2025</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:9yKSN-GCB0IC" target="_blank" rel="noopener">Point-Of-Care Ultra-Portable Single-Molecule Bioassays for One-Health</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/advs.202412347" target="_blank" rel="noopener">Electric Field Cycling of Physisorbed Antibodies Reduces Biolayer Polarization Dispersion</a>
+      <span class="auth">C. Di Franco, E. Macchia, <strong>M. Catacchio</strong>, M. Caputo, C. Scandurra, L. Sarcina, P. Bollella, A. Tricase, M. Innocenti, R. Funari, M. Piscitelli, G. Scamarcio, L. Torsi &middot; <em>Advanced Science</em>, 2024</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:ufrVoPGSRksC" target="_blank" rel="noopener">Perspectives on systematic optimization of ultrasensitive biosensors through experimental design</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1039/d3tc03110a" target="_blank" rel="noopener">Kelvin probe force microscopy on patterned large-area biofunctionalized surfaces: a reliable ultrasensitive platform for biomarker detection</a>
+      <span class="auth">C. Di Franco, M. Piscitelli, E. Macchia, C. Scandurra, <strong>M. Catacchio</strong>, L. Torsi, G. Scamarcio &middot; <em>Journal of Materials Chemistry C</em>, 2024</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:zYLM7Y9cAGgC" target="_blank" rel="noopener">Spiers Memorial Lecture: Challenges and prospects in organic photonics and electronics</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1039/d3fd00152k" target="_blank" rel="noopener">Spiers Memorial Lecture: Challenges and prospects in organic photonics and electronics</a>
+      <span class="auth"><strong>M. Catacchio</strong>, M. Caputo, L. Sarcina, C. Scandurra, A. Tricase, V. Marchianò, E. Macchia, P. Bollella, L. Torsi &middot; <em>Faraday Discussions</em>, 2024</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:qjMakFHDy7sC" target="_blank" rel="noopener">Kelvin probe force microscopy on patterned large-area biofunctionalized surfaces: a reliable ultrasensitive platform for biomarker detection</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/adma.202309705" target="_blank" rel="noopener">Point-Of-Care Ultra-Portable Single-Molecule Bioassays for One-Health</a>
+      <span class="auth"><strong>M. Catacchio</strong>, E. Macchia, F. Torricelli, M. Caputo, L. Sarcina, C. Scandurra, P. Bollella, M. Piscitelli, C. Di Franco, G. Scamarcio, L. Torsi &middot; <em>Advanced Materials</em>, 2023</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:Y0pCki6q_DkC" target="_blank" rel="noopener">Experimental design of stencil-printed high-performance organic electrochemical transistors</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1109/fleps57599.2023.10220418" target="_blank" rel="noopener">Single-Molecule Bioelectronic Sensor: Improving Reliability with Machine Learning Approaches</a>
+      <span class="auth">L. Sarcina, C. Scandurra, M. Caputo, <strong>M. Catacchio</strong>, C. Di Franco, P. Bollella, M. Chironna, F. Torricelli, I. Esposito, R. Österbacka, G. Scamarcio, E. Macchia, L. Torsi &middot; <em>2023 IEEE FLEPS (conference paper)</em>, 2023</span>
+    </div></div>
 
-    <div class="pub"><a href="https://pubs.rsc.org/en/content/articlehtml/2023/tc/d3tc01123b" target="_blank" rel="noopener">A stable physisorbed layer of packed capture antibodies for high-performance sensing applications</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1039/d3tc01123b" target="_blank" rel="noopener">A stable physisorbed layer of packed capture antibodies for high-performance sensing applications</a>
+      <span class="auth"><strong>M. Catacchio</strong>, L. Sarcina, C. Scandurra, C. Di Franco, M. Caputo, P. Bollella, G. Scamarcio, E. Macchia, L. Torsi &middot; <em>Journal of Materials Chemistry C</em>, 2023</span>
+    </div></div>
 
-    <div class="pub"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hJAP66cAAAAJ&citation_for_view=hJAP66cAAAAJ:2osOgNQ5qMEC" target="_blank" rel="noopener">Fast and Reliable Electronic Assay of a Xylella fastidiosa Single Bacterium in Infected Plants Sap</a></div>
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1039/d3ma00888f" target="_blank" rel="noopener">Experimental design of stencil-printed high-performance organic electrochemical transistors</a>
+      <span class="auth"><strong>M. Catacchio</strong>, A. M. Ghafari, E. Rosqvist, A. Luukkonen, A. Eklund, K. Björkström, P. Bollella, L. Torsi, E. Macchia, R. Österbacka &middot; <em>Materials Advances</em>, 2023</span>
+    </div></div>
+
+    <div class="pub"><div>
+      <a class="t" href="https://doi.org/10.1002/advs.202203900" target="_blank" rel="noopener">Fast and Reliable Electronic Assay of a Xylella fastidiosa Single Bacterium in Infected Plants Sap</a>
+      <span class="auth">L. Sarcina, E. Macchia, G. Loconsole, G. D'Attoma, P. Bollella, <strong>M. Catacchio</strong>, F. Leonetti, C. Di Franco, V. Elicio, G. Scamarcio, G. Palazzo, D. Boscia, P. Saldarelli, L. Torsi &middot; <em>Advanced Science</em>, 2022</span>
+    </div></div>
   </section>
 
   <footer>
